@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
 before_filter :authorize
   before_filter :set_i18n_locale_from_params
   protect_from_forgery
-
+  #SSsssss
   private
 
   def current_cart
